@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.sleepy_evelyn",
+		"id": "mod_integration",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Quilt Wiki Integration Mod",
+			"description": "",
 			"contributors": {
-				"Your name here": "Owner"
+				"Your name here": "SleepyEvelyn"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.sleepy_evelyn.IntegrationMod",
+			"client_init": "io.github.sleepy_evelyn.IntegrationModClient"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "mod_integration.mixins.json"
 }

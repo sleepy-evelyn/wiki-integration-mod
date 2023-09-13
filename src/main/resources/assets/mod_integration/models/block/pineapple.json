@@ -1,0 +1,44 @@
+{
+	"textures": {
+		"0": "mod_integration:block/pineapple",
+		"particle": "mod_integration:block/pineapple"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [4, 0, 5],
+			"to": [12, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [8, 6, 16, 12], "texture": "#0"},
+				"east": {"uv": [0, 6, 6, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 6], "texture": "#0"},
+				"west": {"uv": [0, 6, 6, 12], "texture": "#0"},
+				"up": {"uv": [16, 6, 8, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 0, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stem",
+			"from": [8.37745, 3.92492, 7],
+			"to": [9.37745, 7.92492, 9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [6, 12, 6.5, 15], "texture": "#0"},
+				"east": {"uv": [0, 12, 2, 15], "texture": "#0"},
+				"south": {"uv": [3, 12, 3.5, 15], "texture": "#0"},
+				"west": {"uv": [0, 12, 2, 15], "texture": "#0"},
+				"up": {"uv": [4.5, 15, 4, 13], "texture": "#0"},
+				"down": {"uv": [7.5, 13, 7, 14], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "pineapple",
+			"origin": [7.5, 6.5, 7.5],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
